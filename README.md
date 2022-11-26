@@ -35,6 +35,8 @@ jdb.remove('key');
 `Checks key`
 ## .remove() 
 `Deletes the key`
+## .removeAll()
+`Clears keys`
 ## .JSON() 
 `JSON Storage`
 ## .JSON({data})
