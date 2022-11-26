@@ -19,7 +19,8 @@ const jdb = new myJDB('jdb.json');
 
 jdb.create('key', 'key value')
 
-jdb.import('key');
+const value = jdb.import('key');
+console.log(value);
 
 jdb.remove('key');
 ```
