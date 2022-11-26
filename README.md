@@ -15,7 +15,7 @@ npm i myjdb
 # Example Usage
 ```js
 const myJDB = require('myJDB');
-const jdb = new myJDB('/jdb.json');
+const jdb = new myJDB('jdb.json');
 
 jdb.create('key', 'key value')
 
